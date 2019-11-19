@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="16dp">
+    
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Apakah Saya Ganteng"
+       	android:textStyle="normal"/>
+    
+ 
+    <CheckBox
+        android:id="@+id/cb1" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Ya"
+       	android:layout_below="@+id/tv1"/>
+    
+    <CheckBox
+        android:id="@+id/cb2" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Tidak"
+       	android:layout_below="@+id/cb1"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb2"
+        android:text="Button" />
+    
+    
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="xxx"
+       	android:textStyle="normal"
+       	android:layout_below="@+id/bt1" />
+
+    
+    
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Apakah ente jelek"
+       	android:textStyle="normal"
+       	android:layout_below="@+id/tv2"
+       	android:layout_marginTop="8dp"/>
+    
+    <CheckBox
+        android:id="@+id/cb3" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Ya"
+       	android:layout_below="@+id/tv3"/>
+
+    <CheckBox
+        android:id="@+id/cb4" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Tidak"
+       	android:layout_below="@+id/cb3"/>
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb4"
+        android:text="Button" />
+    
+    
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="xxx"
+       	android:textStyle="normal"
+       	android:layout_below="@+id/bt2" />
+    
+</RelativeLayout>
